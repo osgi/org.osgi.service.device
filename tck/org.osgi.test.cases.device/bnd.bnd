@@ -1,0 +1,42 @@
+# Set javac settings from JDT prefs
+
+Export-Package: 		${p}.tbc;-split-package:=first
+-conditionalpackage					= org.osgi.test.support.*
+-privatepackage						= ${p}.tbc.*
+Import-Package: ${-signaturetest}, *
+
+-includeresource					= \
+	dev0.jar, \
+	dev1.jar, \
+	dev2.jar, \
+	dev3.jar, \
+	dev4.jar, \
+	dev20.jar, \
+	dev100.jar, \
+	drv1.jar, \
+	drv2.jar, \
+	drv3.jar, \
+	drv4.jar, \
+	drv5.jar, \
+	drv6.jar, \
+	drv7.jar
+	
+-signaturetest                      = org.osgi.service.device
+
+
+
+-fixupmessages.private: "Export * has * private references"
+
+p: org.osgi.test.cases.device
+
+# Maven build: workspace includes replaced inline (from cnf/includes and build.bnd in osgi/osgi)
+# -make.maven, not -make: the key is a map entry and would displace
+# a project-level -make (webcontainer also builds .war recipes this
+# way). bnd merges all -make.* entries.
+-make.maven: (*).(jar); type=bnd; recipe="bnd/$1.bnd"
+
+testcases.junit3: ${classes;EXTENDS;junit.framework.TestCase;CONCRETE}
+testcases.junit4: ${classes;HIERARCHY_ANNOTATED;org.junit.Test;CONCRETE}
+testcases.junit5: ${classes;HIERARCHY_INDIRECTLY_ANNOTATED;org.junit.platform.commons.annotation.Testable;CONCRETE}
+Test-Cases: ${sort;${uniq;${testcases.junit3};${testcases.junit4};${testcases.junit5}}}
+-plugin.signaturetest: SignatureTest
