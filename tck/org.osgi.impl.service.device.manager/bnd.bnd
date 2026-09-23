@@ -1,0 +1,8 @@
+# Set javac settings from JDT prefs
+
+Bundle-Activator				= ${p}.Activator
+Import-Service					= org.osgi.service.log.LogService
+
+-privatepackage					= ${p}.*
+
+p: org.osgi.impl.service.device.manager
