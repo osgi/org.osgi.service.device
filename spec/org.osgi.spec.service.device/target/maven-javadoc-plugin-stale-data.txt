@@ -1,0 +1,71 @@
+@options
+@packages
+-classpath
+'/home/stbischof/.m2/repository/org/osgi/org.osgi.annotation.versioning/1.1.2/org.osgi.annotation.versioning-1.1.2.jar:/home/stbischof/.m2/repository/org/osgi/org.osgi.annotation.bundle/2.0.0/org.osgi.annotation.bundle-2.0.0.jar:/home/stbischof/.m2/repository/org/osgi/org.osgi.framework/1.10.0/org.osgi.framework-1.10.0.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+8
+-sourcepath
+'/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/api/src/main/java:/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 1980 <a href="https://www.eclipse.org/">Eclipse Foundation</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:none
+-doctitle
+'OSGi Specification repo for org.osgi.service.device 1.1.2-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/javadoc-bundle-options'
+-notimestamp
+-tag
+"Immutable:t:Immutable"
+-tag
+"ThreadSafe:t:ThreadSafe"
+-tag
+"NotThreadSafe:t:NotThreadSafe"
+-tag
+"GuardedBy:mf:Guarded By:"
+-tag
+"security:m:Required Permissions"
+-tag
+"noimplement:t:Consumers of this API must not implement this interface"
+-tag
+"implNote:a:Implementation Note:"
+-use
+-version
+-windowtitle
+'OSGi Specification repo for org.osgi.service.device 1.1.2-SNAPSHOT API'
+org.osgi.service.device
+/home/stbischof/.m2/repository/org/osgi/org.osgi.annotation.versioning/1.1.2/org.osgi.annotation.versioning-1.1.2.jar = 1634136809000
+/home/stbischof/.m2/repository/org/osgi/org.osgi.annotation.bundle/2.0.0/org.osgi.annotation.bundle-2.0.0.jar = 1644360733000
+/home/stbischof/.m2/repository/org/osgi/org.osgi.framework/1.10.0/org.osgi.framework-1.10.0.jar = 1607377478000
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/api/src/main/java = 1790012120853
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/generated-sources/annotations = 1790090738257
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/element-list = 1790093097546
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/constant-values.html = 1790093097694
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/overview-tree.html = 1790093097816
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/allclasses-index.html = 1790093097871
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/allpackages-index.html = 1790093097884
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/module-search-index.js = 1790093097886
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/package-search-index.js = 1790093097893
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/type-search-index.js = 1790093097894
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/member-search-index.js = 1790093097895
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/tag-search-index.js = 1790093097902
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/index-all.html = 1790093097979
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/search.html = 1790093097993
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/index.html = 1790093098001
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/help-doc.html = 1790093098067
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/stylesheet.css = 1790093098078
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/script.js = 1790093098081
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/copy.svg = 1790093098083
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/link.svg = 1790093098085
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/search.js = 1790093098099
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/search-page.js = 1790093098103
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/spec/org.osgi.spec.service.device/target/apidocs/javadoc.sh = 1790090774711

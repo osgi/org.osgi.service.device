@@ -1,0 +1,7 @@
+org/osgi/service/device/Constants.class
+org/osgi/service/device/DriverLocator.class
+org/osgi/service/device/Match.class
+org/osgi/service/device/package-info.class
+org/osgi/service/device/Device.class
+org/osgi/service/device/Driver.class
+org/osgi/service/device/DriverSelector.class

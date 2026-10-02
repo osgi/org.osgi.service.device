@@ -1,0 +1,4 @@
+org/osgi/impl/service/device/manager/MatchValue.class
+org/osgi/impl/service/device/manager/MatchImpl.class
+org/osgi/impl/service/device/manager/DriverRef.class
+org/osgi/impl/service/device/manager/Activator.class

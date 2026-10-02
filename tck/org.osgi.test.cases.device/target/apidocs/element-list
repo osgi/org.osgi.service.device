@@ -1,0 +1,17 @@
+org.osgi.test.cases.device.dev0
+org.osgi.test.cases.device.dev1
+org.osgi.test.cases.device.dev100
+org.osgi.test.cases.device.dev2
+org.osgi.test.cases.device.dev20
+org.osgi.test.cases.device.dev3
+org.osgi.test.cases.device.dev4
+org.osgi.test.cases.device.drv1
+org.osgi.test.cases.device.drv2
+org.osgi.test.cases.device.drv3
+org.osgi.test.cases.device.drv4
+org.osgi.test.cases.device.drv5
+org.osgi.test.cases.device.drv6
+org.osgi.test.cases.device.drv7
+org.osgi.test.cases.device.tbc
+org.osgi.test.cases.device.tbc.locators
+org.osgi.test.cases.device.tbc.selectors
