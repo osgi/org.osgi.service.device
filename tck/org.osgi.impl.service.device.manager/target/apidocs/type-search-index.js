@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.osgi.impl.service.device.manager","l":"Activator"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.osgi.impl.service.device.manager","l":"DriverRef"},{"p":"org.osgi.impl.service.device.manager","l":"MatchImpl"},{"p":"org.osgi.impl.service.device.manager","l":"MatchValue"}];updateSearchResults();

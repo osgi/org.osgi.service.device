@@ -1,0 +1,73 @@
+@options
+@packages
+-classpath
+'/home/stbischof/.m2/repository/org/osgi/org.osgi.framework/1.10.0/org.osgi.framework-1.10.0.jar:/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/api/target/org.osgi.service.device-1.1.2-SNAPSHOT.jar:/home/stbischof/.m2/repository/org/osgi/org.osgi.annotation.versioning/1.1.2/org.osgi.annotation.versioning-1.1.2.jar:/home/stbischof/.m2/repository/org/osgi/org.osgi.annotation.bundle/2.0.0/org.osgi.annotation.bundle-2.0.0.jar:/home/stbischof/.m2/repository/org/osgi/org.osgi.service.log/1.5.0/org.osgi.service.log-1.5.0.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+8
+-sourcepath
+'/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/src/main/java:/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 1980 <a href="https://www.eclipse.org/">Eclipse Foundation</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:none
+-doctitle
+'org.osgi.impl.service.device.manager 1.1.2-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/javadoc-bundle-options'
+-linkoffline
+'https://projects.eclipse.org/projects/technology.osgi/org.osgi.service.device.reactor/org.osgi.service.device/apidocs' '/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/api/target/apidocs'
+-notimestamp
+-tag
+"Immutable:t:Immutable"
+-tag
+"ThreadSafe:t:ThreadSafe"
+-tag
+"NotThreadSafe:t:NotThreadSafe"
+-tag
+"GuardedBy:mf:Guarded By:"
+-tag
+"security:m:Required Permissions"
+-tag
+"noimplement:t:Consumers of this API must not implement this interface"
+-tag
+"implNote:a:Implementation Note:"
+-use
+-version
+-windowtitle
+'org.osgi.impl.service.device.manager 1.1.2-SNAPSHOT API'
+org.osgi.impl.service.device.manager
+/home/stbischof/.m2/repository/org/osgi/org.osgi.framework/1.10.0/org.osgi.framework-1.10.0.jar = 1607377478000
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/api/target/org.osgi.service.device-1.1.2-SNAPSHOT.jar = 1790090737162
+/home/stbischof/.m2/repository/org/osgi/org.osgi.annotation.versioning/1.1.2/org.osgi.annotation.versioning-1.1.2.jar = 1634136809000
+/home/stbischof/.m2/repository/org/osgi/org.osgi.annotation.bundle/2.0.0/org.osgi.annotation.bundle-2.0.0.jar = 1644360733000
+/home/stbischof/.m2/repository/org/osgi/org.osgi.service.log/1.5.0/org.osgi.service.log-1.5.0.jar = 1607402552000
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/src/main/java = 1790012120866
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/generated-sources/annotations = 1790090790518
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/element-list = 1790093118897
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/overview-tree.html = 1790093119026
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/allclasses-index.html = 1790093119056
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/allpackages-index.html = 1790093119062
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/module-search-index.js = 1790093119064
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/package-search-index.js = 1790093119064
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/type-search-index.js = 1790093119065
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/member-search-index.js = 1790093119066
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/tag-search-index.js = 1790093119066
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/index-all.html = 1790093119096
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/search.html = 1790093119105
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/index.html = 1790093119109
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/help-doc.html = 1790093119171
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/stylesheet.css = 1790093119187
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/script.js = 1790093119192
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/copy.svg = 1790093119200
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/link.svg = 1790093119206
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/search.js = 1790093119230
+/home/stbischof/git/OSGI_MIGRATE/osgi_target/org.osgi.service.device/tck/org.osgi.impl.service.device.manager/target/apidocs/search-page.js = 1790093119235
