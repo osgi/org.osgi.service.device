@@ -17,8 +17,6 @@
  *******************************************************************************/
 package org.osgi.test.cases.device.tbc.locators;
 
-import static org.osgi.test.support.compatibility.DefaultTestBundleControl.log;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
@@ -52,7 +50,7 @@ public class RedirectionLocator1 implements DriverLocator {
 	 *          redirecting driver
 	 */
 	public String[] findDrivers(Dictionary<String, ? > props) {
-		log("searching for " + props.get("deviceID"));
+		System.out.println("searching for " + props.get("deviceID"));
 		String[] toReturn = new String[1];
 		toReturn[0] = "redirecting_driver";
 		return toReturn;
@@ -70,7 +68,7 @@ public class RedirectionLocator1 implements DriverLocator {
 			return AccessController
 					.doPrivileged(new PrivilegedExceptionAction<InputStream>() {
 						public InputStream run() throws Exception {
-							log("loading for " + id);
+							System.out.println("loading for " + id);
 							if ("redirecting_driver".equals(id)) {
 								try {
 									URL url = new URL(master.getWebServer()
