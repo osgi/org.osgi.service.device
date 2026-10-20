@@ -17,8 +17,6 @@
  *******************************************************************************/
 package org.osgi.test.cases.device.tbc.locators;
 
-import static org.osgi.test.support.compatibility.DefaultTestBundleControl.log;
-
 import java.io.InputStream;
 import java.net.URL;
 import java.security.AccessController;
@@ -52,7 +50,7 @@ public class BasicTestLocator implements DriverLocator {
 	 *         "deviceID" from the props Dictionary
 	 */
 	public String[] findDrivers(Dictionary<String, ? > props) {
-		log("searching for " + props.get("deviceID"));
+		System.out.println("searching for " + props.get("deviceID"));
 		String[] toReturn = new String[1];
 		toReturn[0] = (String) props.get("deviceID");
 		return toReturn;
@@ -66,7 +64,7 @@ public class BasicTestLocator implements DriverLocator {
 	 * @return an InputStream to the basicdrv.jar bundle
 	 */
 	public InputStream loadDriver(String id) {
-		log("loading for " + id);
+		System.out.println("loading for " + id);
 		try {
 			return AccessController
 					.doPrivileged(new PrivilegedExceptionAction<InputStream>() {
@@ -79,7 +77,7 @@ public class BasicTestLocator implements DriverLocator {
 		}
 		catch (PrivilegedActionException e) {
 			e.getException().printStackTrace();
-			log("error while reading the /drivers/basicdrv.jar resource");
+			System.out.println("error while reading the /drivers/basicdrv.jar resource");
 			return null;
 		}
 	}

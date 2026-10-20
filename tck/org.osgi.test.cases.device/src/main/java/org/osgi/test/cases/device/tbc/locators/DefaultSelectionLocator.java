@@ -17,8 +17,6 @@
  *******************************************************************************/
 package org.osgi.test.cases.device.tbc.locators;
 
-import static org.osgi.test.support.compatibility.DefaultTestBundleControl.log;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
@@ -54,7 +52,7 @@ public class DefaultSelectionLocator implements DriverLocator {
 	 *          be filtered from the default selection algorithm
 	 */
 	public String[] findDrivers(Dictionary<String, ? > props) {
-		log("searching for " + props.get("deviceID"));
+		System.out.println("searching for " + props.get("deviceID"));
 		String[] toReturn = new String[3];
 		toReturn[0] = "Driver_Winner";
 		toReturn[1] = "Driver_Common";
@@ -72,7 +70,7 @@ public class DefaultSelectionLocator implements DriverLocator {
 	 *         id.
 	 */
 	public InputStream loadDriver(final String id) throws IOException {
-		log("loading for " + id);
+		System.out.println("loading for " + id);
 		try {
 			return AccessController
 					.doPrivileged(new PrivilegedExceptionAction<InputStream>() {
@@ -96,7 +94,7 @@ public class DefaultSelectionLocator implements DriverLocator {
 										return url.openStream();
 									}
 									else {
-								log("unknown driver ID passed "
+								System.out.println("unknown driver ID passed "
 												+ id);
 										return null;
 									}

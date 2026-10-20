@@ -17,8 +17,6 @@
  *******************************************************************************/
 package org.osgi.test.cases.device.tbc.locators;
 
-import static org.osgi.test.support.compatibility.DefaultTestBundleControl.log;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
@@ -55,7 +53,7 @@ public class DriverLoadingLocator1 implements
 	 *          be used in the driver loading test
 	 */
 	public String[] findDrivers(Dictionary<String, ? > props) {
-		log("searching for drivers");
+		System.out.println("searching for drivers");
 		String[] toReturn = new String[3];
 		toReturn[0] = "Driver_Common";
 		toReturn[1] = "Driver_Winner";
@@ -77,7 +75,7 @@ public class DriverLoadingLocator1 implements
 			return AccessController
 					.doPrivileged(new PrivilegedExceptionAction<InputStream>() {
 						public InputStream run() throws Exception {
-							log("loading for " + id);
+							System.out.println("loading for " + id);
 							if ("Driver_Winner".equals(id)) {
 								URL url = new URL(master.getWebServer()
 										+ "drv4.jar");
